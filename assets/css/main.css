@@ -3020,7 +3020,7 @@ input, select, textarea {
 			border-radius: 0;
 			display: block;
 			position: relative;
-			width: 25em;
+			width: 50em;
 		}
 
 			.spotlights > section > .image img {
@@ -3539,7 +3539,7 @@ input, select, textarea {
 /* Sidebar */
 
 	#sidebar {
-		padding: 2.5em 2.5em 0.5em 2.5em ;
+		padding: 1.5em ;
 		background: #312450;
 		cursor: default;
 		height: 100vh;
