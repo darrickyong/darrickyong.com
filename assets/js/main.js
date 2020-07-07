@@ -185,6 +185,127 @@
 						$(this).removeClass('inactive');
 
 				}
-			});
+      });
+      
+  // Skills.
+  	$(".skill-react-icon").mouseover(function () {
+      $(".skill-react-icon").removeClass("devicon-react-original");
+      $(".skill-react-icon").addClass("devicon-react-original-wordmark colored");
+    });
 
+    $(".skill-react-icon").mouseleave(function () {
+      $(".skill-react-icon").removeClass("devicon-react-original-wordmark colored");
+      $(".skill-react-icon").addClass("devicon-react-original");
+    });
+
+    $('.skill-rails-icon').mouseover(function () {
+      $('.skill-rails-icon').removeClass('devicon-rails-plain');
+      $('.skill-rails-icon').addClass('devicon-rails-plain-wordmark colored');
+    });
+    
+	  $('.skill-rails-icon').mouseleave(function () {
+      $('.skill-rails-icon').removeClass('devicon-rails-plain-wordmark colored');
+      $('.skill-rails-icon').addClass('devicon-rails-plain');
+    });
+
+    $('.skill-js-icon').mouseover(function () {
+      $('.skill-js-icon').removeClass('devicon-javascript-plain');
+      $('.skill-js-icon').addClass('devicon-javascript-plain colored');
+    });
+    
+	  $('.skill-js-icon').mouseleave(function () {
+      $('.skill-js-icon').removeClass('devicon-javascript-plain colored');
+      $('.skill-js-icon').addClass('devicon-javascript-plain');
+    });
+
+    $('.skill-css-icon').mouseover(function () {
+      $('.skill-css-icon').removeClass('devicon-css3-plain');
+      $('.skill-css-icon').addClass('devicon-css3-plain-wordmark colored');
+    });
+    
+	  $(".skill-css-icon").mouseleave(function () {
+      $(".skill-css-icon").removeClass("devicon-css3-plain-wordmark colored");
+      $(".skill-css-icon").addClass("devicon-css3-plain");
+    });
+
+    $('.skill-express-icon').mouseover(function () {
+      $('.skill-express-icon').removeClass('devicon-express-original');
+      $('.skill-express-icon').addClass('devicon-express-original-wordmark colored');
+    });
+    
+	  $('.skill-express-icon').mouseleave(function () {
+      $('.skill-express-icon').removeClass('devicon-express-original-wordmark colored');
+      $('.skill-express-icon').addClass('devicon-express-original');
+    });
+
+    $('.skill-git-icon').mouseover(function () {
+      $('.skill-git-icon').removeClass('devicon-git-plain');
+      $('.skill-git-icon').addClass('devicon-git-plain-wordmark colored');
+    });
+    
+	  $('.skill-git-icon').mouseleave(function () {
+      $('.skill-git-icon').removeClass('devicon-git-plain-wordmark colored');
+      $('.skill-git-icon').addClass('devicon-git-plain');
+    });
+
+    $('.skill-html-icon').mouseover(function () {
+      $('.skill-html-icon').removeClass('devicon-html5-plain');
+      $('.skill-html-icon').addClass('devicon-html5-plain-wordmark colored');
+    });
+    
+	  $(".skill-html-icon").mouseleave(function () {
+      $(".skill-html-icon").removeClass("devicon-html5-plain-wordmark colored");
+      $(".skill-html-icon").addClass("devicon-html5-plain");
+    });
+    
+    $('.skill-mongodb-icon').mouseover(function () {
+      $('.skill-mongodb-icon').removeClass('devicon-mongodb-plain');
+      $('.skill-mongodb-icon').addClass('devicon-mongodb-plain-wordmark colored');
+    });
+    
+	  $('.skill-mongodb-icon').mouseleave(function () {
+      $('.skill-mongodb-icon').removeClass('devicon-mongodb-plain-wordmark colored');
+      $('.skill-mongodb-icon').addClass('devicon-mongodb-plain');
+    });
+
+    $('.skill-nodejs-icon').mouseover(function () {
+      $('.skill-nodejs-icon').removeClass('devicon-nodejs-plain');
+      $('.skill-nodejs-icon').addClass('devicon-nodejs-plain-wordmark colored');
+    });
+    
+	  $('.skill-nodejs-icon').mouseleave(function () {
+      $('.skill-nodejs-icon').removeClass('devicon-nodejs-plain-wordmark colored');
+      $('.skill-nodejs-icon').addClass('devicon-nodejs-plain');
+    });
+
+    $('.skill-postgresql-icon').mouseover(function () {
+      $('.skill-postgresql-icon').removeClass('devicon-postgresql-plain');
+      $('.skill-postgresql-icon').addClass('devicon-postgresql-plain-wordmark colored');
+    });
+    
+	  $('.skill-postgresql-icon').mouseleave(function () {
+      $('.skill-postgresql-icon').removeClass('devicon-postgresql-plain-wordmark colored');
+      $('.skill-postgresql-icon').addClass('devicon-postgresql-plain');
+    });
+
+    $('.skill-ruby-icon').mouseover(function () {
+      $('.skill-ruby-icon').removeClass('devicon-ruby-plain');
+      $('.skill-ruby-icon').addClass('devicon-ruby-plain-wordmark colored');
+    });
+    
+	  $('.skill-ruby-icon').mouseleave(function () {
+      $('.skill-ruby-icon').removeClass('devicon-ruby-plain-wordmark colored');
+      $('.skill-ruby-icon').addClass('devicon-ruby-plain');
+    });
+
+    $('.skill-d3js-icon').mouseover(function () {
+      $('.skill-d3js-icon').removeClass('devicon-d3js-plain');
+      $('.skill-d3js-icon').addClass('devicon-d3js-plain colored');
+    });
+    
+	  $('.skill-d3js-icon').mouseleave(function () {
+      $('.skill-d3js-icon').removeClass('devicon-d3js-plain colored');
+      $('.skill-d3js-icon').addClass('devicon-d3js-plain');
+    });
+    
 })(jQuery);
