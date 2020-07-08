@@ -4,12 +4,24 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/*--------------------
+  * Type It
+----------------------*/
+
+
 (function($) {
+  new TypeIt("#type-it", {
+    speed: 150,
+    loop: true,
+    strings: ["Software Engineer.", "Father.", "Gamer.", "Cat Lover."],
+    breakLines: false,
+  })
+  .go();
 
 	var	$window = $(window),
 		$body = $('body'),
-		$sidebar = $('#sidebar');
-
+    $sidebar = $('#sidebar');
+  
 	// Breakpoints.
 		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
@@ -307,5 +319,4 @@
       $('.skill-d3js-icon').removeClass('devicon-d3js-plain colored');
       $('.skill-d3js-icon').addClass('devicon-d3js-plain');
     });
-    
 })(jQuery);
