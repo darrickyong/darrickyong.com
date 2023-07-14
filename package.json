@@ -1,8 +1,9 @@
 {
-  "name": "3dfolio",
+  "name": "darrickyong",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://darrickyong.github.io/darrickyong.com/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
