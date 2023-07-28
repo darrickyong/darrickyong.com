@@ -27,21 +27,21 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_r0jcplm",
-        "template_1t76uxq",
+        "service_65uffft",
+        "template_fnbz9ac",
         {
-          form_name: form.name,
-          to_name: "Liron",
+          from_name: form.name,
+          to_name: "Darrick Yong",
           from_email: form.email,
           to_email: "contact@mail.com",
           message: form.message,
         },
-        "Jqq9AvwIuSjoMiA5c"
+        "QbFD5k7wsDsNn6GWH"
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Thank you for reaching out. I will get back to you as soon as possible.");
 
           setForm({
             name: "",
