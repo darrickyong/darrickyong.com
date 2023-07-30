@@ -34,6 +34,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import pdf from "./pdf.png";
+import linkedin from "./linkedin.svg";
+import githubSVG from "./github.svg";
+
 export {
   logo,
   backend,
@@ -67,4 +71,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  pdf,
+  linkedin,
+  githubSVG,
 };

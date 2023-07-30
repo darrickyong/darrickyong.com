@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { githubSVG, linkedin, pdf } from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
@@ -41,7 +42,9 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you for reaching out. I will get back to you as soon as possible.");
+          alert(
+            "Thank you for reaching out. I will get back to you as soon as possible."
+          );
 
           setForm({
             name: "",
@@ -69,10 +72,22 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
+        <div className="flex items-center space-x-5">
+          <a href="/resume.pdf" download>
+            <div className="bg-[url('/src/assets/pdf.png')] hover:bg-[url('/src/assets/pdfhover.png')] bg-cover w-[48px] h-[48px] rounded"></div>
+          </a>
+          <a href="https://www.linkedin.com/in/darrickyong/">
+            <div className="bg-[url('/src/assets/linkedin.svg')] hover:bg-[url('/src/assets/linkedinhover.svg')] bg-cover w-[48px] h-[48px] rounded"></div>
+          </a>
+          <a href="https://github.com/darrickyong">
+            <div className="bg-[url('/src/assets/github.svg')] hover:bg-[url('/src/assets/githubhover.svg')] bg-cover w-[48px] h-[48px] rounded"></div>
+          </a>
+        </div>
+
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-12 flex flex-col gap-8"
+          className="mt-8 flex flex-col gap-8"
         >
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
