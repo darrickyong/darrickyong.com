@@ -145,7 +145,7 @@ const experiences = [
     ],
   },
   {
-    title: "Software Engineer Intern",
+    title: "Software Engineer",
     company_name: "Giveshop",
     icon: giveshop,
     iconBg: "#ffffff",
@@ -155,7 +155,7 @@ const experiences = [
     ],
   },
   {
-    title: "Software Engineer Contractor",
+    title: "Lead Software Engineer",
     company_name: "Shugo",
     icon: shugo,
     iconBg: "#ffffff",
