@@ -17,9 +17,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import okta from "./company/okta.svg";
+import veroskills from "./company/veroskills.jpeg";
 import s37 from "./company/s37.png";
 import nisum from "./company/nisum.jpeg";
-import giveshop from "./company/giveshop.svg";
 import shugo from "./company/shugo.png";
 
 import pdf from "./pdf.png";
@@ -46,7 +47,8 @@ export {
   threejs,
   s37,
   nisum,
-  giveshop,
+  okta,
+  veroskills,
   shugo,
   pdf,
   linkedin,
